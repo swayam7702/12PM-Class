@@ -7,6 +7,7 @@ import Section from "./Components/Section";
 import Section1 from "./Components/Section1";
 import Services from "./Components/Services";
 import Test from "./Components/Test";
+import TestAgain from "./Components/TestAgain";
 
 function App(){
     return(
@@ -19,6 +20,7 @@ function App(){
         <Contact/>
         <Faculty/>
         <Test/>
+        <TestAgain/>
      </div>
     )
 }
