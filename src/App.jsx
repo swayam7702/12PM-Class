@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
 import Section1 from "./Components/Section1";
 import Services from "./Components/Services";
+import Test from "./Components/Test";
 
 function App(){
     return(
@@ -17,7 +18,7 @@ function App(){
         <Services/>
         <Contact/>
         <Faculty/>
-
+        <Test/>
      </div>
     )
 }
