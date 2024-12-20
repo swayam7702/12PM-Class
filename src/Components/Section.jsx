@@ -1,8 +1,10 @@
 import React from 'react'
 import Img from "../assets/Ai1.png"
+
 const Section = () => {
   return (
     <>
+ 
         <div className='sec'>
         <img src="https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1734078851808/zip/img/pc/vivo-x200-pro.png.webp" alt="" />
         </div>

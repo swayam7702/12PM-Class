@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
     
@@ -6,16 +7,17 @@ export default function Navbar() {
   <>
         <div className='nav'>
             <div className="logo">
-                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="" />
+                <Link to='/'>
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="" />
+                </Link>
             </div>
             <div className="links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Testmonials</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                   <li><NavLink to="/">Home</NavLink></li>
+                   <li><NavLink to="/about">About Us</NavLink></li>
+                   <li><NavLink to="/services">Services</NavLink></li>
+                   <li><NavLink to="/faculty">Experts</NavLink></li>
+                   <li><NavLink to="/products">Products</NavLink></li>
                 </ul>
             </div>
             <div className="btns">

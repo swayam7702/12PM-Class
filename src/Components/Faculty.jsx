@@ -3,8 +3,11 @@ import P1 from '../assets/person-1.jpg'
 import P2 from '../assets/person-2.jpg'
 import P3 from '../assets/person-7.jpg'
 import P4 from '../assets/person-4.jpg'
+
 const Faculty = () => {
   return (
+   <>
+    
     <div>
          <div class="oef">
         <h1 class="sec-title">Our Expert Faculty</h1>
@@ -89,6 +92,7 @@ const Faculty = () => {
         </div>
      </div>
     </div>
+   </>
   )
 }
 
